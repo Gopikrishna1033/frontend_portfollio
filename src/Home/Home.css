@@ -1,0 +1,33 @@
+.body {
+    background-image: linear-gradient(290deg, green, greenyellow);
+    width: 100%;
+    height: 100vh;
+}
+i{
+    display:flex;
+    justify-content: space-around;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+p,button{
+   margin-left: 31%;
+}
+.contact-btn{
+    margin-left: 2%;
+   
+}
+.lcm{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+.know-btn,.contact-btn{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 1.3rem;
+}
