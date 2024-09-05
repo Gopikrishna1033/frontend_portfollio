@@ -8,16 +8,21 @@ i{
     justify-content: space-around;
 }
 h1{
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30vh;
 }
-p,button{
-   margin-left: 31%;
+p{
+   margin-top: 11%;
+   margin-left: 5%;
+}
+button{
+    margin-left: 23%;
 }
 .contact-btn{
-    margin-left: 2%;
+    margin-left: 35%;
    
 }
 .lcm{
@@ -26,8 +31,15 @@ p,button{
     height: 20vh;
 }
 .know-btn,.contact-btn{
+    position: absolute;
+    top: 45%;
     border: none;
     border-radius: 20px;
     padding: 15px;
     font-size: 1.3rem;
+}
+.gopi{
+   
+   border-radius: 47%;
+
 }
