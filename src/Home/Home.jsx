@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Gopi from "../assets/Gopi.jpg"
+import {Link} from "react-router-dom"
 function Home() {
   return (
     <div className='body'>
@@ -11,18 +12,17 @@ function Home() {
           </div>
           <img src={Gopi} alt="description"  loading='lazy' className='gopi' width={300}/>
           <p>This is Venkatagopikrishna a <u>Software Engineer</u></p>
-
-          
-          <button className='know-btn btn btn-outline-primary '>Know about me</button>
-          <button className='contact-btn btn btn-outline-primary'>Contact me</button>
         </div>
-        
-        {/* <div className="row">
-          <div className="col-md-12">
+        <div className="btn-container">
+          <Link to={"/about"}>
           <button className='know-btn btn btn-outline-primary '>Know about me</button>
+          </Link>
+          
+          <Link to={"/contact"}>
           <button className='contact-btn btn btn-outline-primary'>Contact me</button>
+          </Link>
           </div>
-        </div> */}
+       
 
       </div>
       

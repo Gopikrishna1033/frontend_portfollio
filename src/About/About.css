@@ -1,0 +1,47 @@
+.about h1{
+    text-align: center;
+}
+.about .para{
+    text-align: center;
+    font-family:  Geneva;
+    font-size: 1.2rem;
+}
+.about-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+}
+.about-main-left,.about-main-right{
+
+    width: 50%;
+}
+.about-main-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.about-main-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.about-main-left h3{
+    margin-top: 12%;
+}
+.about-subheading{
+    margin:0;
+}
+.about-subheadingDetails{
+    margin: 10px 0 32px 0;
+}
+.about-anime{
+    width: 520px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.check{
+   margin-left: 39%;
+    position: absolute;
+    top: 95%;
+    cursor: pointer;
+}

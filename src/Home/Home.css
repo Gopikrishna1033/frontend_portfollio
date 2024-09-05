@@ -7,22 +7,22 @@ i{
     display:flex;
     justify-content: space-around;
 }
-h1{
+.col-md-12  h1{
     margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30vh;
 }
-p{
+.row p{
    margin-top: 11%;
    margin-left: 5%;
 }
 button{
-    margin-left: 23%;
+    margin-left: 21%;
 }
 .contact-btn{
-    margin-left: 35%;
+    margin-left: 33%;
    
 }
 .lcm{
@@ -30,6 +30,7 @@ button{
     justify-content: center;
     height: 20vh;
 }
+
 .know-btn,.contact-btn{
     position: absolute;
     top: 45%;
