@@ -1,0 +1,22 @@
+.contact-form h1{
+    text-align: center;
+}
+.contact-form .cont-para{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cont-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+.Home{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-right: 3%;
+    margin-top: 2%;
+}
