@@ -10,7 +10,7 @@ function Home() {
           <div className="col-md-12 lcm">
             <h1>Welcome to my portfolio</h1>
           </div>
-          <img src={Gopi} alt="description"  loading='lazy' className='gopi' width={300}/>
+          <img src={Gopi} alt="description"  loading='lazy' className='gopi' />
           <p>This is Venkatagopikrishna a <u>Software Engineer</u></p>
         </div>
         <div className="btn-container">
@@ -25,7 +25,7 @@ function Home() {
        
 
       </div>
-      
+      {console.log(window.innerWidth+ 'X' + window.innerHeight)}
     </div>
   )
 }
