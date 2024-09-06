@@ -55,22 +55,24 @@ button{
     }
     .col-md-12  h1{
         font-size: 1rem;
-        margin-top: 27%;
+        margin-top: 29%;
         margin-left:20%;
+        text-align: center;
     }
     .row p{
-        margin-top: 8%;
+        margin-top: 7%;
         margin-left: 15%;
+        font-size:0.9rem;
     }
     .know-btn{
         margin-top: 1%;
         margin-left: 15%;
-        font-size: 10px;
+        font-size: 0.8rem;
     }
     .contact-btn{
         margin-left: 45%;
         margin-top: 1%;
-        font-size: 10px;
+        font-size: 0.8rem;
     }
 }
 
