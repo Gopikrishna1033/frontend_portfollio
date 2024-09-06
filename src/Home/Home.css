@@ -66,12 +66,12 @@ button{
     }
     .know-btn{
         margin-top: 0%;
-        margin-left: 23%;
+        margin-left: 26%;
         font-size: 0.8rem;
     }
     .contact-btn{
-        margin-left: 48%;
-        margin-top: 0%;
+        margin-left: 55%;
+        margin-top: 10px;
         font-size: 0.8rem;
     }
 }
