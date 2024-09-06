@@ -44,7 +44,7 @@ color: #000000;
     text-align: center;
 }
 
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:480px) and (max-width:768px){
     .Skill-heading .skill-para{
         font-size:1rem;
     }

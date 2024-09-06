@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:480px) and (max-width:768px){
     .about-anime{
         width: 400px;
     }
