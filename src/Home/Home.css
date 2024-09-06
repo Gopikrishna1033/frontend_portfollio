@@ -60,17 +60,17 @@ button{
         text-align: center;
     }
     .row p{
-        margin-top: 5%;
-        margin-left: 18%;
+        margin-top: 10%;
+        margin-left: 15%;
         font-size:0.6rem;
     }
     .know-btn{
         margin-top: 1%;
-        margin-left: 15%;
+        margin-left: 18%;
         font-size: 0.8rem;
     }
     .contact-btn{
-        margin-left: 45%;
+        margin-left: 47%;
         margin-top: 1%;
         font-size: 0.8rem;
     }
