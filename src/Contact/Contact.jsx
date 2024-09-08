@@ -51,7 +51,7 @@ function Contact() {
       </div>
         <div className='Home'>
           <Link to={'/'}>
-           <img src="https://tse3.mm.bing.net/th?id=OIP.Ufhw6gE8oI7VfnpUCRDK3AHaHa&pid=Api&P=0&h=180" alt="" />
+           <img src="https://tse2.mm.bing.net/th?id=OIP.xgZ_lnCH7XeOcxxLNgbKEQHaHa&pid=Api&P=0&h=180" alt="" width={100}/>
           </Link>
           
         </div>
