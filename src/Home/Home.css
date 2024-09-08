@@ -70,8 +70,8 @@ i{
     }
     .btn-container{
         display: flex;
-        gap: 6rem;
-        margin-left: 20%;
+        gap: 4.5rem;
+        margin-left: 30%;
         
     }
     .know-btn,.contact-btn{
