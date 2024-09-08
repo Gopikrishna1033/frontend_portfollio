@@ -41,7 +41,7 @@
 
 @media(min-width:320px) and (max-width:480px){
     .cont-form{
-        margin-top: 7%;
+        margin-top: 12%;
         margin-left: 10%;
     }
     .input{
@@ -54,7 +54,8 @@
         width: 265px;
     }
     .Home{
-        margin-top: 16%;
+        margin-top: 20%;
+        width: 70px;
     }
 
 }
