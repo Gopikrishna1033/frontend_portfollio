@@ -53,11 +53,11 @@
 @media(min-width:320px) and (max-width:480px){
     .about-subheading{
         font-size: 0.8rem;
-        margin-left: 10px;
+        margin-left: 10%;
     }
     .about-subheadingDetails{
         font-size: 0.5rem;
-        margin-left: 10px;
+        margin-left: 10%;
         padding: 3px 0 18px 0;
     }
     .about-anime{
