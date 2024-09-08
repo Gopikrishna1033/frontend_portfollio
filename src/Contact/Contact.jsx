@@ -38,7 +38,7 @@ function Contact() {
         <form onSubmit={submitHandler} ref={formref}>
           <div className="form-group">
             {/* <pre>{JSON.stringify(user)}</pre> */}
-          <input type="email" className='form-control col-sm-5 input' placeholder='email@gmail.com' required name='mail' onChange={updateHandler}/>
+          <input type="email" className='form-control col-sm-5 input ' placeholder='email@gmail.com' required name='mail' onChange={updateHandler}/>
           </div>
           <div className="form-group">
             

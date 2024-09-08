@@ -16,6 +16,7 @@
     justify-content: center;
     margin-left: 37%;
     margin-top: 5%;
+    width: 70%;
 }
 .Home{
     display: flex;
@@ -25,33 +26,34 @@
     margin-top: 8%;
 }
 
+
+ @media (min-width:480px) and (max-width:768px){
+
+    .Home{
+        margin-top: 21%;
+    }
+
+    .cont-form{
+        margin-left: 27%;
+        width:117%;
+    }
+} 
+
 @media(min-width:320px) and (max-width:480px){
     .cont-form{
         margin-left: 10%;
     }
     .input{
-        width: 205px;
+        width: 245px;
     }
     .area{
-        width: 205px;
+        width: 245px;
     }
     .but{
-        width: 205px;
+        width: 245px;
+    }
+    .Home{
+        margin-top: 10%;
     }
 
 }
-
- @media (min-width:480px) and (max-width:768px){
-    .input{
-        width: 305px;
-    }
-    .area{
-        width: 305px;
-    }
-    .but{
-        width: 305px;
-    }
-    .Home{
-        margin-top: 11%;
-    }
-} 
