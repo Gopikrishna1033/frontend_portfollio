@@ -72,7 +72,10 @@ i{
         display: flex;
         gap: 2rem;
         margin-left: 20%;
-        font-size: 0.7rem;
+        
+    }
+    .know-btn,.contact-btn{
+        font-size: 0.5rem;
     }
 }
 
