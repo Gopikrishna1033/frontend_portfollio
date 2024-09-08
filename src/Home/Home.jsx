@@ -13,11 +13,12 @@ function Home() {
           <img src={Gopi} alt="description"  loading='lazy' className='gopi' />
           <p>This is Venkatagopikrishna a <u>Software Engineer</u></p>
         </div>
+        
         <div className="btn-container">
           <Link to={"/about"}>
           <button className='know-btn btn btn-outline-primary '>Know about me</button>
           </Link>
-          
+  
           <Link to={"/contact"}>
           <button className='contact-btn btn btn-outline-primary'>Contact me</button>
           </Link>

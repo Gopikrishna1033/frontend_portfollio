@@ -68,15 +68,10 @@ i{
         margin-left: 12%;
         font-size:0.6rem;
     }
-    .know-btn{
-        margin-top: 0%;
-        
-        font-size: 0.8rem;
-    }
-    .contact-btn{
-        
-        margin-top: 0%;
-        font-size: 0.8rem;
+    .btn-container{
+        display: flex;
+        gap: 8rem;
+        margin-left: 20%;
     }
 }
 
@@ -95,12 +90,10 @@ i{
         margin-top: 27%;
         margin-left: 4%;
     }
-    .know-btn{
-        margin-top: 1%;
-        margin-left: 18%;
+    .btn-container{
+        display: flex;
+        gap: 11rem;
+        margin-left: 26%;
     }
-    .contact-btn{
-        margin-left: 45%;
-        margin-top: 1%;
-    }
-} 
+
+}
