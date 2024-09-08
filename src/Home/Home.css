@@ -19,22 +19,26 @@ i{
    margin-top: 11%;
    margin-left: 5%;
 }
-button{
+/* button{
     margin-left: 21%;
 }
 .contact-btn{
     margin-left: 33%;
    
-}
+} */
 .lcm{
     display: flex;
     justify-content: center;
     height: 20vh;
 }
-
+.btn-container{
+    display: flex;
+    gap: 11rem;
+    margin-left: 29%;
+}
 .know-btn,.contact-btn{
     position: absolute;
-    top: 45%;
+    top: 43%;
     border: none;
     border-radius: 20px;
     padding: 15px;

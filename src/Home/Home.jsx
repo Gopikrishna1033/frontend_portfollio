@@ -21,7 +21,7 @@ function Home() {
           <Link to={"/contact"}>
           <button className='contact-btn btn btn-outline-primary'>Contact me</button>
           </Link>
-          </div>
+        </div>
        
 
       </div>
