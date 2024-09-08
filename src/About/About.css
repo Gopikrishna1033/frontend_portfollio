@@ -50,24 +50,32 @@
     cursor: pointer;
 }
 
-@media(min-width:320px) and (max-width:480px){
-    .about-subheading{
-        font-size: 0.8rem;
-        margin-left: 10%;
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-main {
+        padding: 30px 20px; /* Reduced padding on mobile */
     }
-    .about-subheadingDetails{
-        font-size: 0.5rem;
-        margin-left: 10%;
-        padding: 3px 0 18px 0;
+
+    .about-subheading {
+        font-size: 0.9rem;
+        margin-left: 5%; /* Reducing margin for smaller screens */
     }
-    .about-anime{
-        width:100px;
-        margin-left: 3%;
+
+    .about-subheadingDetails {
+        font-size: 0.7rem;
+        margin-left: 5%;
+        padding: 5px 0 18px 0;
     }
-    .check{
-        margin-left: 27%;
+
+    .about-anime {
+        width: 150px;
+        margin-left: 0; /* Avoid excessive margins */
+    }
+
+    .check {
+        margin-left: 20%;
     }
 }
+
 
 @media (min-width:480px) and (max-width:768px){
     .about-anime{
