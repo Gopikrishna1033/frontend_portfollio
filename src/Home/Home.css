@@ -38,7 +38,7 @@ i{
 }
 .know-btn,.contact-btn{
     position: absolute;
-    top: 43%;
+    top: 47%;
     border: none;
     border-radius: 20px;
     padding: 15px;
@@ -76,6 +76,8 @@ i{
     }
     .know-btn,.contact-btn{
         font-size: 0.5rem;
+        position: absolute;
+        top: 35%;
     }
 }
 
