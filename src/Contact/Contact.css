@@ -29,6 +29,12 @@
     .cont-form{
         margin-left: 10%;
     }
+    input{
+        width:100px;
+    }
+    textarea{
+        width: 100px;
+    }
    
 }
 
