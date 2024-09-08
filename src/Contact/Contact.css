@@ -29,10 +29,10 @@
     .cont-form{
         margin-left: 10%;
     }
-    input{
-        width:100px;
+    .input{
+        width: 100px;
     }
-    textarea{
+    .area{
         width: 100px;
     }
    

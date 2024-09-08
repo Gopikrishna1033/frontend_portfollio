@@ -38,11 +38,11 @@ function Contact() {
         <form onSubmit={submitHandler} ref={formref}>
           <div className="form-group">
             {/* <pre>{JSON.stringify(user)}</pre> */}
-          <input type="email" className='form-control col-sm-5' placeholder='email@gmail.com' required name='mail' onChange={updateHandler}/>
+          <input type="email" className='form-control col-sm-5 input' placeholder='email@gmail.com' required name='mail' onChange={updateHandler}/>
           </div>
           <div className="form-group">
             
-            <textarea name="text" id="" className='form-control col-sm-5' rows={7} placeholder='Enter you Message' required onChange={updateHandler}></textarea>
+            <textarea name="text" id="" className='form-control col-sm-5 area' rows={7} placeholder='Enter you Message' required onChange={updateHandler}></textarea>
           </div>
           <div className="form-group">
             <button className='btn btn-primary form-control col-sm-5' style={{marginLeft:1}}>Submit</button>
