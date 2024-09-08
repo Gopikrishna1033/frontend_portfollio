@@ -30,12 +30,17 @@
         margin-left: 10%;
     }
     .input{
-        width: 100px;
+        width: 175px;
     }
     .area{
-        width: 100px;
+        width: 175px;
     }
-   
+    .but{
+        width: 175px;
+    }
+   .Home{
+    width: 170px;
+   }
 }
 
 /* @media (min-width:320px) and (max-width:768px){

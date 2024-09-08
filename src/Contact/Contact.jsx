@@ -45,7 +45,7 @@ function Contact() {
             <textarea name="text" id="" className='form-control col-sm-5 area' rows={7} placeholder='Enter you Message' required onChange={updateHandler}></textarea>
           </div>
           <div className="form-group">
-            <button className='btn btn-primary form-control col-sm-5' style={{marginLeft:1}}>Submit</button>
+            <button className='btn btn-primary form-control col-sm-5 but' style={{marginLeft:1}}>Submit</button>
           </div>
         </form>
       </div>
